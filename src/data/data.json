@@ -16,7 +16,7 @@
     "menu3": "Vos besoins",
     "menu4": "Réalisations",
     "menu5": "Équipe",
-    "menu5": "Contact"
+    "menu6": "Contact"
   },
   "links": {
     "menu1L": "/accueil",
@@ -24,7 +24,7 @@
     "menu3L": "/accueil#besoins",
     "menu4L": "/accueil#réalisations",
     "menu5L": "/accueil#équipe",
-    "menu5L": "/accueil#contact"
+    "menu6L": "/accueil#contact"
   },
 
   "team": [

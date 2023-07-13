@@ -14,18 +14,10 @@
 @import "./style/univers.css";
 @import "./style/story.css";
 @import "./style/stories.css";
-@import "./style/universesAnimations.css";
 @import "./style/thisUniverse.css";
 @import "./style/responsive.css";
 
 /***FONTS***/
-/*
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 

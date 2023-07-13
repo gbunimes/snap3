@@ -3,7 +3,7 @@
 import ReactTooltip from "react-tooltip";
 
 /***COMPONENTS***/
-import { checkWidth2 } from "../components/Appendix";
+/*import { checkWidth2 } from "../components/Appendix";*/
 
 /***COMPONENT***/
 export default function Intro(data) {
