@@ -39,9 +39,8 @@ html {
   color: var(--whiteish);
   width: 100%;
   height: 100vh;
-  background-color: var(--blackish);
+  background-color: var(--whiteish);
   background: url("./style/background/background.webp");
-  background-color: var(--blackish);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -53,6 +52,7 @@ html {
   --blackishBack2: #00000099;
   --blackishBack3: #00000066;
   --whiteish: #f9f7fd;
+  --uniOrange: #e84e24;
   --whiteishTrans: #f9f7fd66;
   --whiteishTrans3: #f9f7fd99;
   --greenish: #85dd91;
