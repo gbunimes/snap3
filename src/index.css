@@ -3,18 +3,8 @@
 /***COMPONENTS STYLES***/
 @import "./style/animations.css";
 @import "./style/header.css";
-@import "./style/BackgroundParticleAnim.css";
-@import "./style/BackgroundParticleAnim2.css";
-@import "./style/intro.css";
+/*@import "./style/intro.css";*/
 @import "./style/footer.css";
-@import "./style/modal.css";
-@import "./style/form.css";
-@import "./style/team.css";
-@import "./style/createurs.css";
-@import "./style/univers.css";
-@import "./style/story.css";
-@import "./style/stories.css";
-@import "./style/thisUniverse.css";
 @import "./style/responsive.css";
 
 /***FONTS***/

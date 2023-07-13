@@ -31,9 +31,9 @@ export default function App() {
         {/*ROUTES*/}
         <Switch>
           {/*HOMEPAGE*/}
-          {/* <Route exact path="/accueil">
-                         <Homepage data1={Data1} data2={Data2} data3={Data3} />
-                       </Route>  */}
+          { <Route exact path="/accueil">
+                         <Homepage data1={Data1} />
+                       </Route>  }
           {/*REDIRECT*/}
           {/*<Route>
                           <Redirect to="/accueil" />
