@@ -1,0 +1,442 @@
+/***RESPONSIVE***/
+
+/**********1422************/
+@media (max-width: 1422px) {
+	.introBooks img {
+		max-width: 190px !important;
+	}
+}
+
+/**********1401************/
+@media (max-width: 1401px) {
+	.react-responsive-modal-modal {
+		max-width: 80vw !important;
+	}
+}
+
+/**********1369************/
+@media (max-width: 1369px) {
+	.introBooks img {
+		max-width: 118px !important;
+	}
+}
+
+/**********1066************/
+@media (max-width: 1066px) {
+	.storyText {
+		flex: unset !important;
+	}
+	.audioWrap {
+		margin-top: 50px;
+		flex: unset !important;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/**********992************/
+@media (max-width: 992px) {
+	nav p,
+	nav button p,
+	nav li a,
+	nav li,
+	nav div {
+		font-size: 12px;
+	}
+	.creator a::before {
+		color: white !important;
+	}
+	.creator .Jobs {
+		margin-top: 0px !important;
+		height: auto !important;
+		bottom: -55px !important;
+		margin: auto;
+		width: 89% !important;
+	}
+	.intro {
+		margin-top: 10vh !important;
+		flex-direction: column !important;
+	}
+	.introLeft,
+	.introRightWrapper {
+		margin: auto !important;
+		width: 100% !important;
+	}
+	.logoFull {
+		min-width: 200px !important;
+		box-shadow: 0px 0px 15px -6px var(--greenish);
+	}
+	.intro h1 {
+		width: 100% !important;
+		align-self: center !important;
+	}
+	.creator .Jobs {
+		bottom: -70px !important;
+	}
+	#team {
+		padding: 20px;
+		margin: 100px auto;
+		max-width: 90vw;
+	}
+}
+
+/**********852************/
+@media (max-width: 852px) {
+	.pagination2 a,
+	.aAnim2 {
+		height: 20px !important;
+		width: 20px !important;
+		margin: 10px;
+	}
+	ul li ul {
+		padding: 0;
+		margin: 28px auto;
+		width: 100%;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		background-color: var(--greenish);
+	}
+	ul li ul > * {
+		padding: 0px !important;
+	}
+	ul li ul a,
+	ul li ul button {
+		color: var(--blackish) !important;
+	}
+	body,
+	html {
+		background-position: 40% center !important;
+	}
+	nav p,
+	nav button p,
+	nav li a,
+	nav li,
+	nav div {
+		font-size: 15px;
+	}
+}
+
+/**********768************/
+@media (max-width: 768px) {
+	body,
+	html {
+		background-position: 30% center !important;
+	}
+	.react-responsive-modal-modal p {
+		font-size: 16px !important;
+	}
+	.creator .Jobs {
+		bottom: -70px !important;
+	}
+	.thatULink {
+		pointer-events: none;
+	}
+	.pagination2,
+	.firsth2 {
+		display: none !important;
+	}
+	/*Style story*/
+	.top {
+		flex-direction: column;
+	}
+	.left {
+		padding: 0px !important;
+		position: relative;
+		width: 100%;
+		justify-content: space-evenly;
+		margin: 35px auto 0 auto;
+		flex-direction: row;
+	}
+	.middle {
+		padding: 70px 15px 0px 15px !important;
+		width: 100%;
+		position: relative;
+		justify-content: unset;
+	}
+	.right,
+	.left0 {
+		bottom: 85px;
+		align-items: center;
+		justify-content: flex-end;
+		left: 30%;
+		padding: 0px 0 25px 0;
+	}
+	.bottom {
+		margin-top: 100px !important;
+		position: relative;
+		margin-top: 30px;
+	}
+	.bottom p {
+		font-size: 16px;
+	}
+	.fin {
+		font-size: unset !important;
+		padding: 5px 10px 5px 10px;
+		width: 100% !important;
+		font-size: 14px !important;
+		margin: 10px auto 10px auto !important;
+	}
+	.soundButton {
+		padding: 0 !important;
+		padding: 0 5px 15px 0 !important;
+	}
+	.refresh,
+	.goBack,
+	.soundButton {
+		width: 45px !important;
+		height: 45px !important;
+		margin: auto;
+		background: unset !important;
+		border: none !important;
+		box-shadow: unset !important;
+	}
+	.next,
+	.previous {
+		width: 40px !important;
+		height: 40px !important;
+		z-index: 1500;
+	}
+	.pageNum {
+		top: 25px;
+		font-size: 16px;
+	}
+	.refresh i,
+	.goBack i,
+	.soundButton i
+	/*, .startButton p */ {
+		font-size: 24px;
+		padding: unset !important;
+	}
+	.middle h1 {
+		font-size: 65px;
+		font-size: 70px;
+	}
+	.auteur {
+		font-size: 26px !important;
+	}
+	.middle h2 {
+		font-size: 25px;
+		line-height: 25px;
+		letter-spacing: -2px !important;
+		padding-bottom: 10px !important;
+	}
+	.backOverlay2,
+	.backOverlay {
+		background-position: center;
+		width: 100vw;
+		height: 100vh;
+	}
+	.page12 {
+		background-position: center !important;
+		width: 100vw;
+		height: 300vh;
+	}
+	.page20 {
+		top: 25%;
+		height: 150vh;
+	}
+	.buyLinks a,
+	.ReviewLinks a {
+		width: 100%;
+	}
+	.teamWrap {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.teamRight {
+		padding-top: 0;
+	}
+	.secTitleR {
+		margin-top: 0;
+	}
+}
+/**********767************/
+@media (max-width: 767px) {
+	#createurs .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.menuF li:nth-child(1),
+	.menuF li:nth-child(2),
+	.menuF li:nth-child(3) {
+		display: none !important;
+	}
+}
+
+/**********688************/
+@media (max-width: 688px) {
+	.introRightWrapper {
+		display: none !important;
+	}
+	body,
+	html {
+		background-position: 20% center !important;
+	}
+	footer {
+		width: 100%;
+		border-radius: 0 !important;
+	}
+	footer button {
+		font-size: 12px !important;
+	}
+	footer .fa {
+		font-size: 18px !important;
+	}
+	form button,
+	form .button,
+	.btn-block {
+		width: 55% !important;
+	}
+	#createurs {
+		overflow-x: hidden;
+	}
+	#thisUniverse .book {
+		flex-direction: column;
+		margin-bottom: 80px !important;
+	}
+	.bookLeft,
+	.bookRight {
+		width: 100% !important;
+		margin-bottom: 25px;
+	}
+	.bookLeft {
+		margin-bottom: 25px;
+	}
+	.univers h1 {
+		font-size: 60px !important;
+	}
+	.univers p {
+		font-size: 16px !important;
+	}
+	.pagination {
+		display: none !important;
+	}
+	#audio {
+		margin: auto !important;
+		margin-bottom: 20px !important;
+	}
+	.storyWrap2 h1 {
+		margin-top: 25px !important;
+		margin-bottom: 25px !important;
+		font-size: 35px !important;
+	}
+	.storyWrap2 h2 {
+		font-size: 25px !important;
+	}
+	.cardTitle {
+		margin-top: 15px;
+		font-size: 60px !important;
+		padding-bottom: 15px;
+	}
+	.cardAuthor {
+		font-size: 30px !important;
+		text-align: center !important;
+	}
+	.StoryCard {
+		padding: 10px !important;
+	}
+	.newTag2 {
+		font-size: 15px !important;
+	}
+}
+/**********425************/
+@media (max-width: 425px) {
+	.react-responsive-modal-modal {
+		padding: 20px !important;
+		max-width: 90vw !important;
+	}
+	.react-responsive-modal-modal p {
+		font-size: 14px !important;
+	}
+	.react-responsive-modal-modal h1 {
+		font-size: 18px !important;
+	}
+	.creator {
+		max-width: 70%;
+		margin: auto;
+	}
+	#thisUniverse h1,
+	#thisSearch h1,
+	#createurs h1 {
+		font-size: 40px !important;
+	}
+	#createurs h1 {
+		font-size: 30px !important;
+	}
+	.UP {
+		font-size: 16px !important;
+	}
+	#thisUniverse h2,
+	#thisSearch h2 {
+		font-size: 24px;
+	}
+	.subTitle {
+		margin: 10px 0 10px 0 !important;
+	}
+	.secondaryInfos {
+		width: 100% !important;
+	}
+	#thisUniverse h3,
+	#thisSearch h3 {
+		font-size: 18px !important;
+	}
+	.bookRight .tag {
+		margin: 3px 5px 3px 5px;
+	}
+	.bookRight p {
+		font-size: 15px !important;
+	}
+	.bookRight .sousTitre {
+		font-size: 17px !important;
+	}
+	#thisUniverse h1 {
+		animation: unset !important;
+	}
+	.univers h1,
+	.search h1 {
+		animation: unset !important;
+		font-size: 40px !important;
+	}
+	.univers h2,
+	.search h2 {
+		text-align: center;
+		font-size: 20px !important;
+	}
+	.univers p,
+	.search p {
+		text-align: justify !important;
+	}
+	.secondaryInfos {
+		width: 100%;
+	}
+	.linkToU {
+		position: absolute;
+		margin-top: 5vh;
+		width: 80%;
+	}
+	#team0 {
+		padding: 50px 10px 50px 10px;
+		max-width: 95vw;
+	}
+	#team0 p {
+		font-size: 16px;
+	}
+	.TeamTitle {
+		font-size: 26px;
+	}
+	.TeamSub {
+		font-size: 18px;
+	}
+	.secTitle {
+		font-size: 16px;
+	}
+}
+/**********382************/
+@media (max-width: 382px) {
+	.audioWrap {
+		margin-top: 5px;
+	}
+}

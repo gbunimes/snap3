@@ -1,0 +1,631 @@
+{
+  "nda": {
+    "teamIn": "Absinthia",
+    "description": "Maison d'édition spécialisée dans les littératures de l'imaginaire.",
+    "mail": "contact@noirdabsinthe.com",
+    "tel": "06 52 49 96 97",
+    "blog": "https://www.noirdabsinthe.com/blog",
+    "boutique": "https://noirdabsinthe.hiboutik.com/myshop/",
+    "FB": "https://www.facebook.com/NoirdAbsinthe/",
+    "TW": "https://twitter.com/NoirdAbsinthe",
+    "IG": "https://www.instagram.com/noirdabsinthe/",
+    "YT": "https://www.youtube.com/channel/UCbZRksrbS8qcN6fzv4Y3y-g/",
+    "Tiphs": "https://www.tiphs-art.com/",
+    "Dev": "https://www.gillianbroussedev.com"
+  },
+  "stories": {
+    "titre0": "Lecture augmentée",
+    "titre": "Lecture en ligne",
+    "argu": "Retrouvez dans cette section des nouvelles gratuites agrémentées d'animations et d'une ambiance sonore. Pour une immersion optimale, nous vous recommandons l'utilisation d'un casque.",
+    "argu2": "Bonne lecture !"
+  },
+
+  "univers": [
+    {
+      "name": "Mémoria",
+      "link": "memoria",
+      "accroche": "Écoutez Absinthia",
+      "description": " Au fond du verre, découvrez Absinthia, la belle mais dangereuse fée verte . Laissez-la vous prendre par les sens, l'espace d'un instant, et elle vous mènera vers Memoria, terre des âges passés. Elle vous y contera, à demi-mot, des rêves emplis de Magie, dont vous ne voudrez jamais vous éveiller."
+    },
+    {
+      "name": "Futuria",
+      "link": "futuria",
+      "accroche": "Explorez les possibles",
+      "description": " Inspirez profondément le souffle d’Absinthia et ses vapeurs exaltantes, qui vous transporteront ailleurs, dans un temps que vous ne connaissez pas encore. Elle vous guidera vers Futuria, ses galaxies lointaines, ses terres étranges et ses cités méconnaissables. Mais prenez garde, nos futurs sont rarement accueillants…"
+    },
+    {
+      "name": "Onyria",
+      "link": "onyria",
+      "accroche": "Suivez la fée verte",
+
+      "description": "Dans le sillage d’Absinthia, laissez-vous envoûter par le parfum de jardins étranges où règnent les chimères du rêve. Prenez garde cependant : malgré le caractère enchanteur de ces contrées mystérieuses, celles-ci brouillent la frontière entre le réel et le phantasme. Elles flirtent aisément avec la folie et les méandres plus obscurs de l’inconscient."
+    },
+    {
+      "name": "Terra Urbana",
+      "link": "terra-urbana",
+      "accroche": "Levez le voile",
+
+      "description": "Trempez vos lèvres et sentez le baiser brûlant d’Absinthia. Devant vous, elle lèvera le voile qui masque la Terra Urbana, vous laissant pénétrer dans une réalité autre, onirique et enivrante, nichée dans les recoins de notre monde."
+    },
+    {
+      "name": "Rouge d'Absinthe",
+      "link": "rouge-d-absinthe",
+      "accroche": "Abandonnez-vous",
+
+      "description": "Absinthia vous emmène dans son boudoir, antre de non-dits et d'interdits, qu'elle vous dévoilera avec langueur. Les passions, les fureurs et les désirs ont libre cours ici, et les péchés s'évanouissent dans le plaisir."
+    },
+    {
+      "name": "L'Antre de la Folie",
+      "link": "l-antre-de-la-folie",
+      "accroche": "Plongez dans l'abîme",
+
+      "description": "Absinthia vous guidera vers un lieu plus obscur, personnel et terrifiant. Au plus profond de l’Antre de la Folie, vous serez seul avec elle, face aux doutes primordiaux et aux peurs ataviques. Elle mettra l’humain à nu, sans le filtre de la raison, dans toute sa laideur et sa splendeur."
+    },
+    {
+      "name": "Fleur d'Absinthe",
+      "link": "fleur-d-absinthe",
+      "accroche": "Attisez la flamme",
+
+      "description": "Absinthia cache aussi, derrières ses sourires aux dents pointues, un petit cœur qui parfois - je dis bien parfois - bât pour une histoire d'amour. Elle aime toutefois les êtres vrais, en fragilité, et dans les pages de ses romances, vous y trouverez la même flamme qui l'anime au quotidien."
+    },
+    {
+      "name": "Chrysalis",
+      "link": "chrysalis",
+      "accroche": "Brisez le cocon",
+
+      "description": "Un cocon, rituel de passage de l'adolescence à l'âge adulte. La lutte nécessaire d'une fée qui s'extraie de la soie, sous le regard d'Absinthia. La Muse se gardera bien d'apporter son aide, cependant, de crainte que la renaissance demeure incomplète..."
+    },
+    {
+      "name": "Pousse d'Absinthe",
+      "link": "pousse-d-absinthe",
+      "accroche": "Cultivez la graine de l'Imaginaire",
+      "descriptionOLDOLDOLD": "Absinthia cultive, à l'abri des regards, un jardin merveilleux où l'imaginaire est le terreau des rêves. Lorsque vient le soir, les jeunes pousses se tournent vers le ciel et écoutent ses histoires empreintes de Magie.",
+      "description": "Absinthia cultive, à l'abri des regards, un jardin merveilleux où l'imaginaire se fait terreau et où les rêves se cachent dans les gouttes d'eau. Lorsque vient le soir, les jeunes pousses se tournent vers le ciel et écoutent ses histoires empreintes de Magie."
+    },
+    {
+      "name": "Hors Collection",
+      "link": "hors-collection",
+      "accroche": "Découvrir",
+      "description": ""
+    }
+  ],
+  "createurs": {
+    "crea1": "Éditrices",
+    "crea2": "Auteurs et Autrices",
+    "crea3": "Illustratrices et Illustrateurs",
+    "crea4": "Dans les coulisses"
+  },
+  "teamEdi": [
+    {
+      "name": "Morgane",
+      "name2": "Stankiewiez",
+      "Lien": "https://mort-gane.fr/",
+      "credits": "",
+      "job": "Éditrice & autrice"
+    },
+    {
+      "name": "Louise",
+      "name2": "Le Bars",
+      "Lien": "https://www.facebook.com/plumedustyx",
+      "credits": "© Bronwyn Eibon",
+      "job": "Co-éditrice, directrice de collection & autrice"
+    },
+    {
+      "name": "Émilie",
+      "name2": "Chevallier",
+      "Lien": "https://emilie-chevallier.com/",
+      "credits": "",
+      "job": "Anthologiste, directrice de collection & autrice"
+    },
+    {
+      "name": "Alexiane",
+      "name2": "Thill",
+      "Lien": "https://alexianethill.com/",
+      "credits": "",
+
+      "job": "Directrice de collection"
+    }
+  ],
+  "teamAuth": [
+    {
+      "name": "Cécile",
+      "name2": "Pommereau",
+      "Lien": "https://www.facebook.com/cpommereau/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Sarah",
+      "name2": "Buschmann",
+      "Lien": "https://www.instagram.com/sarahbuschmannautrice/?hl=fr",
+      "credits": "© Jack Schoonjans",
+      "job": "author"
+    },
+    {
+      "name": "Cyrielle",
+      "name2": "Bandura",
+      "Lien": "https://www.instagram.com/dragonebuleuse/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "A.F",
+      "name2": "Lune",
+      "Lien": "https://www.facebook.com/people/AF-Lune/100012619089269/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Pierre",
+      "name2": "Efratas",
+      "Lien": "https://www.facebook.com/pierre.efratas/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Sara",
+      "name2": "Pintado",
+      "Lien": "https://www.instagram.com/arda_wal/?fbclid=IwAR2v9QFK5OxA51QasXrlAB4Q9_jYgYVZVf9ksI27RCPigcsYaUUoPabLXM8",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Axelle",
+      "name2": "Colau",
+      "credits": "",
+      "Lien": "https://axellecolau.fr/",
+      "job": "author"
+    },
+    {
+      "name": "Marion",
+      "name2": "B.",
+      "credits": "© Marina Dufau",
+      "Lien": "https://www.artofmarionb.com/",
+      "job": "author"
+    },
+    {
+      "name": "Lisa",
+      "name2": "Soto",
+      "Lien": "https://www.facebook.com/lisa.soto.hb/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Gillian",
+      "name2": "Brousse",
+      "Lien": "https://gillianbrousse.com/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Magali",
+      "name2": "Lefebvre",
+      "Lien": "https://linktr.ee/Lullaby84",
+      "credits": "© Faallaway",
+      "job": "author"
+    },
+    {
+      "name": "Népenth",
+      "name2": "S.",
+      "Lien": "https://linktr.ee/nepenth_s",
+      "credits": "© MoonE",
+      "job": "author"
+    },
+    {
+      "name": "Geny H.",
+      "name2": "David",
+      "Lien": "https://davidbijoux.fr/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Jordi",
+      "name2": "Vila Cornellas",
+      "Lien": "https://www.facebook.com/JordiVilaCornellas/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Charlène",
+      "name2": "Ferlay",
+      "Lien": "https://www.instagram.com/charleneferlay/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Alizée",
+      "name2": "Villemin",
+      "Lien": "http://www.alizeevillemin.com/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Frédérique",
+      "name2": "Badoux",
+      "Lien": "https://www.facebook.com/FredLBadoux",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Marge",
+      "name2": "Nantel",
+      "Lien": "https://www.facebook.com/MargeNantel",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Rachel",
+      "name2": "Gali",
+      "Lien": "https://www.rachelgali.com/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Xavier",
+      "name2": "Lhomme",
+      "Lien": "https://xavierlhomme.blogspot.com/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Maxence",
+      "name2": "Madone",
+      "Lien": "https://linktr.ee/max.madone",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "KeoT",
+      "name2": "",
+      "Lien": "https://linktr.ee/keot_auteur",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Sarah",
+      "name2": "Delysle",
+      "Lien": "https://linktr.ee/SarahDelysle",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Wilfried",
+      "name2": "Renaut",
+      "Lien": "https://www.instagram.com/wilfriedrenaut/",
+      "credits": "© Mathieu Quéré",
+      "job": "author"
+    },
+    {
+      "name": "Patrice",
+      "name2": "Quélard",
+      "Lien": "https://patricequelard.wordpress.com/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Michelle",
+      "name2": "Labeeu",
+      "Lien": "https://www.noosfere.org/livres/auteur.asp?numauteur=2147203462&fbclid=IwAR1qRAQe7XyHEbnWdadoSHMG7Mxn-Fndb4VTFD0z0gMZSKka4YRU_xH3DvI",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Geoffrey",
+      "name2": "Legrand",
+      "Lien": "http://www.arbremere.fr/",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Amélia",
+      "name2": "Chatterton",
+      "Lien": "https://lestribulationsdemisschatterton.com/",
+      "credits": "© Anais Nannini",
+      "job": "author"
+    },
+    {
+      "name": "Sarah",
+      "name2": "Kügel",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+
+    {
+      "name": "Alexandra",
+      "name2": "Fiordelli",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Céline",
+      "name2": "Chevet",
+      "Lien": "www.celinechevet.com/writing/",
+      "credits": "",
+      "job": "author"
+    }
+  ],
+  "teamIllus": [
+    {
+      "name": "Tiphs",
+      "name2": "",
+      "Lien": "https://www.tiphs-art.com/",
+      "credits": "",
+      "job": ""
+    },
+        {
+      "name": "MoonE",
+      "name2": "",
+      "Lien": "https://linktr.ee/Kaalicot",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Amaryan",
+      "name2": "",
+      "credits": "",
+      "Lien": "https://amaryan.fr/",
+      "job": "author"
+    },
+    {
+      "name": "Émilie",
+      "name2": "Léger",
+      "credits": "",
+      "Lien": "https://emilieleger.ca/",
+      "job": ""
+    },
+    {
+      "name": "Svalia",
+      "name2": "",
+      "credits": "",
+      "Lien": "https://www.facebook.com/Invidiaillustrations/",
+      "job": "author"
+    },
+    {
+      "name": "Laurent",
+      "name2": "Cazuguel",
+      "credits": "",
+      "Lien": "https://www.facebook.com/lolokazu/",
+      "job": "author"
+    },
+    {
+      "name": "Flokera",
+      "name2": "",
+      "credits": "",
+      "Lien": "https://www.facebook.com/flokera.art/",
+      "job": "author"
+    },
+    {
+      "name": "Marcela",
+      "name2": "Bolivar",
+      "credits": "",
+      "Lien": "https://www.artstation.com/marcelabolivar",
+      "job": ""
+    },
+    {
+      "name": "Ampreh",
+      "name2": "",
+      "credits": "",
+      "Lien": "https://www.ampreh.net/",
+      "job": "author"
+    }
+  ],
+  "teamOmbre": [
+    {
+      "name": "Fabienne",
+      "name2": "Boerlen",
+      "credits": "",
+      "Lien": "",
+      "job": "Comité de lecture"
+    },
+    {
+      "name": "Tristan",
+      "name2": "Lefevre",
+      "credits": "",
+      "Lien": "",
+      "job": "Expert-comptable"
+    },
+    {
+      "name": "Julien",
+      "name2": "Aufderbruck",
+      "credits": "",
+      "Lien": "",
+      "job": "Responsable des visuels"
+    },
+    {
+      "name": "Anne",
+      "name2": "Ledieu",
+      "Lien": "https://lesmotspourlecrire.com/",
+      "credits": "",
+      "job": "Correctrice"
+    },
+    {
+      "name": "Marin'",
+      "name2": "Maltese",
+      "Lien": "https://siennapratt.art.blog/",
+      "credits": "",
+      "job": "Comité de lecture"
+    },
+    {
+      "name": "Eve",
+      "name2": "Mattatia",
+      "Lien": "https://www.instagram.com/evemattatia",
+      "credits": "",
+      "job": "Comité de lecture"
+    }
+  ],
+  "auteurs non répondu": [
+    {
+      "name": "Dola",
+      "name2": "Rosselet",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Mathilde",
+      "name2": "Chau",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Éli",
+      "name2": "Boudeau",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Maëlig",
+      "name2": "Duval",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Kathrine",
+      "name2": "Hasnaoui",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Stéphane",
+      "name2": "Miller",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Cyril",
+      "name2": "Fallavollita",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Arthur-Coriolan",
+      "name2": "Wilmotte",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    },
+    {
+      "name": "Roland",
+      "name2": "Voegele",
+      "Lien": "",
+      "credits": "",
+      "job": "author"
+    }
+  ],
+  "manuscrits": {
+    "titre": "Manuscrits & AT",
+    "P1": "Les soumissions sont désormais fermées et aucun AT n'est en cours.",
+    "P2": "Les manuscrits reçus ne seront pas lus et aucune réponse ne sera communiquée. Si vous souhaitez travailler avec nous, restez attentifs à nos appels à textes de nouvelles.",
+    "P3": "",
+    "P4": "",
+    "P5": ""
+  },
+  "presse": {
+    "titre": "Service-presse",
+    "P1": "Noir d'Absinthe propose des services de presse aux journalistes, blogueurs et youtubers intéressés.",
+    "P2": "En sollicitant un service-presse, vous vous engagez à publier un avis de lecture.",
+    "P3": "Si vous souhaitez recevoir un ouvrage au format numérique, merci d'en faire la demande en précisant l'adresse de votre blog ou de votre chaîne à cette adresse :",
+    "P4": "",
+    "P5": ""
+  },
+  "mentions": {
+    "titre": "Mentions légales",
+    "P1": "SASU au capital de 1000 Euros",
+    "P2": "8 Allée Jacques Cartier",
+    "P3": "35000 Rennes",
+    "P4": "R.C.S Rennes : 835 370 859",
+    "P5": "FR25835370859",
+    "P6": "Les illustrations de ce site sont protégées.",
+    "P7": "Elles ont été réalisées pour Noir d'Absinthe par",
+    "P8": "Tiphs.",
+    "P9": "Site réalisé par",
+    "P10": "Gillian Brousse"
+  },
+  "confidentiality": {
+    "abrtitre": "Confidentialité",
+    "titre": "Politique de confidentialité",
+    "T1": "1. Collecte de l’information",
+    "T1a": "Nous recueillons des informations lorsque vous vous inscrivez sur notre site, lorsque vous vous connectez à votre compte, faites un achat, participez à un concours, et / ou lorsque vous vous déconnectez. Les informations recueillies incluent votre nom, votre adresse e-mail, numéro de téléphone, et / ou carte de crédit.",
+    "T1b": "En outre, nous recevons et enregistrons automatiquement des informations à partir de votre ordinateur et navigateur, y compris votre adresse IP, vos logiciels et votre matériel, et la page que vous demandez",
+    "T2": "2. Utilisation des informations",
+    "T2a": "Toutes les informations que nous recueillons auprès de vous peuvent être utilisées pour :",
+    "T2b": "- Personnaliser votre expérience et répondre à vos besoins individuels",
+    "T2c": "- Fournir un contenu publicitaire personnalisé",
+    "T2d": "- Améliorer notre site",
+    "T2e": "- Améliorer le service client et vos besoins de prise en charge",
+    "T2f": "- Vous contacter par e-mail",
+    "T2g": "- Administrer un concours, une promotion, ou une enquête",
+    "T3": "3. Confidentialité du commerce en ligne",
+    "T3a": "Nous sommes les seuls propriétaires des informations recueillies sur ce site. Vos informations personnelles ne seront pas vendues, échangées, transférées, ou données à une autre société pour n’importe quelle raison, sans votre consentement, en dehors de ce qui est nécessaire pour répondre à une demande et / ou une transaction, comme par exemple pour expédier une commande.",
+    "T4": "4. Divulgation à des tiers",
+    "T4a": "Nous ne vendons, n’échangeons et ne transférons pas vos informations personnelles identifiables à des tiers. Cela ne comprend pas les tierce parties de confiance qui nous aident à exploiter notre site Web ou à mener nos affaires, tant que ces parties conviennent de garder ces informations confidentielles.",
+    "T4b": "Nous pensons qu’il est nécessaire de partager des informations afin d’enquêter, de prévenir ou de prendre des mesures concernant des activités illégales, fraudes présumées, situations impliquant des menaces potentielles à la sécurité physique de toute personne, violations de nos conditions d’utilisation, ou quand la loi nous y contraint.",
+    "T4c": "Les informations non-privées, cependant, peuvent être fournies à d’autres parties pour le marketing, la publicité, ou d’autres utilisations.",
+    "T5": "5. Protection des informations",
+    "T5a": "Nous mettons en œuvre une variété de mesures de sécurité pour préserver la sécurité de vos informations personnelles. Nous protégeons également vos informations hors ligne. Seuls le personnel ayant besoin d’effectuer un travail spécifique (par exemple, la facturation ou le service à la clientèle) a accès aux informations personnelles identifiables. Les ordinateurs et serveurs utilisés pour stocker des informations personnelles identifiables sont conservés dans un environnement sécurisé.",
+    "T6": "6. Est-ce que nous utilisons des cookies ?",
+    "T6a": "Nos cookies améliorent l’accès à notre site et identifient les visiteurs réguliers. En outre, nos cookies améliorent l’expérience d’utilisateur grâce au suivi et au ciblage de ses intérêts. Cependant, cette utilisation des cookies n’est en aucune façon liée à des informations personnelles identifiables sur notre site.",
+    "T7": "7. Se désabonner",
+    "T7a": "Nous utilisons l’adresse e-mail que vous fournissez pour vous envoyer des informations et mises à jour relatives à votre commande, des nouvelles de l’entreprise de façon occasionnelle, des informations sur des produits liés, etc. Si à n’importe quel moment vous souhaitez vous désinscrire et ne plus recevoir d’e-mails, des instructions de désabonnement détaillées sont incluses en bas de chaque e-mail.",
+    "T8": "8. Consentement",
+    "T8a": "En utilisant notre site, vous consentez à notre politique de confidentialité."
+  },
+  "CGV": {
+    "abrtitre": "CGV",
+    "titre": "Conditions générales de vente",
+    "T1": "Article 1 : Champ d’application",
+    "T1a": "Les présentes Conditions Générales de Ventes sont conclues entre, d’une part Noir d’Absinthe, SASU au capital de 1000€, dont le siège social se trouve au 8 allée Jacques Cartier, 35000 Rennes, et d’autre part toute personne physique ou moral qui commande un ou plusieurs produits par le biais du site noirdabsinthe.com",
+    "T1b": "Si une condition venait à manquer, elle serait considérée comme étant régie par les règles de vente à distance du lieu où siège la société",
+    "T2": "Article 2 : Contrat",
+    "T2a": "Le Client déclare être majeur et avoir la pleine capacité juridique, lui permettant de s’engager au titre des CGV ou agir sous la supervision et avec l’accord d’une personne ayant l’autorité parentale.",
+    "T3": "Article 3 : Disponibilité des articles",
+    "T3a": "Tous nos produits sont proposés dans la limite des stocks disponibles. En cas d’indisponibilité de produit après validation de votre commande, nous vous en informerons dans les meilleurs délais. Vous aurez alors la possibilité d’annuler votre commande ou de la modifier en contactant Noir d’Absinthe par email à contact@noirdabsinthe.com",
+    "T4": "Article 4 : Prix",
+    "T4a": "Les prix sont indiqués en euros toutes taxes comprises, hors frais de port. Les livres sont vendus dans le respect des dispositions applicables et plus particulièrement de la loi n° 81-766 du 10 août 1981 (dite « loi Lang ») sur le prix unique du livre, ce dernier, hors frais de port, étant fixé par l’éditeur.",
+    "T4b": "Toute commande livrée en dehors de la France pourra être soumise à des taxes éventuelles et à des droits de douane. Ces droits de douane et taxes éventuels liés à la livraison d’un article sont à la charge du client et relèvent de sa responsabilité. Il appartient au client de se renseigner auprès des autorités compétentes de son pays.",
+    "T5": "Article 5 : Frais d’expédition",
+    "T5a": "Les frais d’expédition comprennent une participation aux frais de préparation et d’emballage, ainsi que l’affranchissement. Ils sont forfaitaires et peuvent être composés d’une partie fixe et d’une partie en fonction du nombre d’article commandé.",
+    "T6": "Article 6 : Paiement.",
+    "T6a": "Le règlement s’effectue à la commande, soit par Paypal, soit par carte bancaire, la transaction étant sécurisée par le chiffrement SSL. Les paiements par carte bancaire sont assurés par la société de paiement Stripe.com .",
+    "T7": "Article 7 : Livraison",
+    "T7a": "Les Produits sont livrés par La Poste, à l’adresse indiquée par le client lors de la commande. Les délais indiqués sont des délais moyens et correspondent au traitement et à livraison pour les produits à destination de la France métropolitaine.",
+    "T7b": "Si votre commande contient des articles indisponibles, livrables ultérieurement, la commande sera expédiée une fois tous les articles réunis. En cas de retard ou de rupture de stock d’un produit, un email vous sera envoyé et vous aurez la possibilité d’annuler tout ou partie de la commande.",
+    "T8": "Article 8 : Droit de rétractation",
+    "T8a": "Conformément à l’article L.121-20 du Code de la consommation, le client particulier dispose d’un délai de quatorze jours à compter de la réception du produit pour exercer son droit de rétractation sans avoir à justifier de motifs ni à payer de pénalités. Les frais d’envoi et de retour restant toutefois à sa charge. Seul le prix du ou des produits achetés sera remboursé. Le produit doit être en parfait état et non descellé. Les articles retournés incomplets, abîmés, endommagés ou salis par le client ne sont pas repris.",
+    "T8b": "En cas de commande personnalisée (par exemple avec une dédicace d’un exemplaire au nom du client), le droit de rétractation n’est pas applicable. ",
+    "T9": "Article 9 : Propriété intellectuelle",
+    "T9a": "Tous les éléments présents sur le site (images, textes, logos, illustrations, etc.) sont la propriété exclusive de Noir d’Absinthe. Toute reproduction totale ou partielle du site sans autorisation préalable est strictement interdite.",
+    "T10": "Article 10 : Données personnelles",
+    "T10a": "Noir d’Absinthe s’engage à ne pas divulguer à des tiers les informations que le client lui communique, qui sont réputées confidentielles. Elles ne seront utilisées que pour le traitement de la commande et à fins de facturation.",
+    "T10b": "En conformité à la loi Informatique et libertés du 6 janvier 1978, le client dispose d’un droit d’accès, de rectification et d’opposition aux données personnelles le concernant. Pour mettre en œuvre ce droit, il suffit au client de contacter Noir d’Absinthe en indiquant ses nom, prénom, adresse et e-mail par mail à contact@noirdabsinthe.com",
+    "T11": "Article 11. Loi applicable",
+    "T11a": "Les ventes de Produits sont soumises à la loi française.",
+    "T12": "Article 12 : Acceptation du client",
+    "T12a": "Les présentes conditions générales de vente ainsi que les tarifs sont expressément acceptés par le client, qui déclare et reconnaît en avoir une parfaite connaissance. Il renonce, de ce fait, à se prévaloir de tout document contradictoire et, notamment de ses propres conditions générales d’achat. L’acte d’achat entraîne l’acceptation des présentes conditions générales de vente."
+  },
+
+  "apropos": {
+    "titre": "Noir d'Absinthe",
+    "P1": "Les éditions Noir d'Absinthe publient dans les littératures de l'imaginaire : Fantasy, Fantastique, Science-Fiction et Horreur.",
+    "P2": "Nous brouillons cependant les genres  avec délectation et, avec nous, les frontières deviennent muables et poreuses.",
+    "P3": "Nous sommes des enfants de la nuit et préférons les livres en nuances, affichant avec orgueil leurs doutes et leurs ambiguïtés. Nos héros sont des couards, nos princesses des déesses, et nos dragons nous emportent dans un monde de rêves hallucinés.",
+    "P4": "Nous ne renions pas la folie qui coule, encre d'un Noir d'Absinthe, dans nos veines empoisonnées.",
+    "P5": "Nos œuvres sont disponibles au format numérique ainsi qu'en impression à la demande. Nous sommes également distribués en librairies."
+  },
+  "contact": {
+    "titre": "Nous contacter",
+    "P1": "",
+    "P2": "",
+    "P3": "",
+    "P4": "",
+    "P5": ""
+  }
+}

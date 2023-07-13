@@ -1,0 +1,300 @@
+/***STORY***/
+
+/**************************Sections**********************************/
+/*all*/
+.story {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  text-align: center;
+}
+/*Main Wrap*/
+.storyWrap {
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover !important;
+  justify-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: url("./background/Brume.webp"), var(--blackish);
+}
+/*Top Section*/
+.top {
+  display: flex;
+  width: 100vw;
+  height: 93vh;
+}
+/*Left*/
+.left {
+  padding: 45px 10px 0 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+/*Middle Section*/
+.middle {
+  padding: 50px;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1 !important;
+}
+.backOverlay2 {
+  position: absolute;
+  background-size: inherit;
+  opacity: 0.2;
+  filter: saturate(0%) brightness(100%);
+  pointer-events: none;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  z-index: -500 !important;
+  background: url("https://media.giphy.com/media/kg19fN5BXbZGIDznzG/giphy.gif");
+}
+/*Right*/
+.right,
+.left0 {
+  right: 0;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+.left0 {
+  left: 0;
+  width: fit-content;
+}
+/*Bottom Section*/
+.bottom {
+  position: absolute;
+  bottom: 20px;
+}
+/**************************Buttons**********************************/
+/*Button general style*/
+.storyWrap button {
+  outline: none;
+  text-decoration: none;
+  color: var(--greenish);
+  background-color: unset;
+  text-shadow: 2px 2px 1px var(--blackish);
+  border: solid 2px var(--whiteish);
+  box-shadow: 0 0 15px -8px var(--whiteishTrans);
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 2s both;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  transition: 0.2s;
+  transform: scale(1);
+  background-color: var(--blackishBack3);
+}
+/*Author & back buttons*/
+.fin {
+  font-size: 16px;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: var(--blackish);
+  border: solid 1px var(--greenish);
+  padding: 15px;
+  transition: 0.5s;
+  z-index: +1;
+}
+#fin2 {
+  margin: 20px 0 0 50px;
+}
+.fin:hover {
+  background: unset !important;
+  background-color: var(--greenish) !important;
+  border: solid 1px var(--blackish);
+  color: var(--blackish) !important;
+  transform: scale(1.05);
+}
+.storyWrap button:hover {
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  text-decoration: none;
+  border: solid 2px var(--greenish);
+  transform: scale(1.1) !important;
+  border-color: var(--greenish) !important;
+  background-color: unset !important;
+  color: var(--whiteish);
+}
+.startButton {
+  background-color: unset !important;
+}
+.startButton p {
+  margin: 0 -5px 0 0;
+  font-size: 32px;
+  color: var(--greenish);
+}
+.startButton:hover p {
+  color: var(--whiteish);
+}
+/*refresh button*/
+.refresh,
+.goBack {
+  margin-top: 15px;
+  font-size: 25px !important;
+}
+.soundButton {
+  font-size: 30px;
+  position: relative;
+}
+/*Right Arrows*/
+.next,
+.previous {
+  color: var(--whiteish) !important;
+  transition: 0.5s;
+  font-size: 35px !important;
+  animation: unset !important;
+  box-shadow: unset !important;
+  transform: scale(1) !important;
+  background-color: unset !important;
+  border: unset !important;
+}
+/*Arrows hover*/
+.next:hover,
+.previous:hover {
+  transform: scale(1.25) !important;
+  color: var(--greenish) !important;
+}
+/**************************Texts**********************************/
+/*Title and Author text*/
+.middle h1,
+.middle h2 {
+  margin: 0;
+  font-size: 150px;
+  width: fit-content;
+  padding-bottom: 20px;
+  border-bottom: solid 1px var(--greenish);
+  text-shadow: 0px 0px 10px var(--blackish), 0px 0px 10px var(--whiteish);
+}
+/*Title*/
+.middle h1 {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  font-family: "Amatic SC", cursive;
+}
+/*Author and story text*/
+.middle h2 {
+  width: 100%;
+  font-size: 30px;
+  padding-top: 10px;
+  border-bottom: unset;
+  text-shadow: 0px 0px 10px var(--blackish);
+  text-align: justify;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: -3px !important;
+  line-height: 50px;
+}
+/*Author text*/
+.auteur {
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s both;
+  text-align: center !important;
+  font-size: 50px !important;
+  margin: 10px auto 50px auto !important;
+}
+/*Page numbers*/
+.pageNum {
+  position: absolute;
+  top: 120px;
+  color: var(--greenish);
+}
+/*Ending button text*/
+.bottom p {
+  margin: 0;
+}
+
+/**************************Animation**********************************/
+.blurIt {
+  -webkit-animation: text-blur-out 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s
+    both;
+  animation: text-blur-out 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
+}
+.hideAudio {
+  display: none;
+}
+.fadeIt {
+  -webkit-animation: fade-inAnim 6s;
+  animation: fade-inAnim 6s;
+}
+.fadeIt2 {
+  -webkit-animation: fade-in 16s;
+  animation: fade-in 16s linear;
+}
+.smoky {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  filter: grayscale(100%) brightness(150%);
+  color: var(--whiteishTrans);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+.backOverlay {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -400important;
+  pointer-events: none;
+  background-size: inherit;
+  background-size: cover !important;
+  transform: translate(-50%, -50%);
+  filter: saturate(0%) brightness(100%);
+  z-index: -1500;
+}
+.page8p {
+  text-shadow: 2px 2px 5px var(--blackish) !important;
+}
+.page8 {
+  opacity: 0.3;
+  z-index: -1500;
+  filter: saturate(0%) brightness(200%);
+  background: url("https://media.giphy.com/media/xTiTnKM3hza0rromgU/giphy.gif");
+}
+.page12 {
+  opacity: 0.15;
+  filter: saturate(0%) brightness(150%);
+  z-index: -1500;
+  background: url("https://media.giphy.com/media/xfleD6ByCmgta/giphy.gif");
+}
+.page13 {
+  opacity: 1;
+  filter: saturate(0%) brightness(150%);
+  z-index: -1500;
+  background: var(--whiteish);
+}
+.page15 {
+  opacity: 0.05;
+  background: url("https://media.giphy.com/media/fqVodOPZg9uBYvYjes/giphy.gif");
+}
+.page17 {
+  opacity: 0.07;
+  filter: saturate(0%) brightness(100%);
+  background: url("https://media.giphy.com/media/EhoruF6g803JKuGqGB/giphy.gif");
+}
+.page20 {
+  transform: translate(-50%, -58%);
+  height: 200%;
+  opacity: 0.2;
+  background: url("https://media.giphy.com/media/9ZUA8tHLUgspy/giphy.gif");
+}

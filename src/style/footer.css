@@ -1,0 +1,77 @@
+/***FOOTER***/
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: var(--whiteish);
+  height: 45px;
+  padding: 30px 5px 30px 5px;
+  z-index: 1000;
+  background: black;
+  border-radius: 0 25px 0 0;
+  box-shadow: -5px 5px 25px 1px var(--blackish);
+}
+footer a,
+footer p,
+footer li {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px 0 5px;
+}
+footer .fa {
+  font-size: 25px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--greenish);
+  text-decoration: none;
+}
+footer img {
+  max-height: 40px;
+  height: 40px;
+  width: 100%;
+}
+
+footer button {
+  margin:  0px 2px 0px 2px!important;
+  
+  font-size: 16px!important;
+}
+
+.fb,
+.BretagneLogo {
+  margin-left: 20px;
+}
+.menuF {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.paraMentions{
+display: flex!important;
+flex-direction: column;
+}
+
+.paraMentions h2{
+  width: 100%!important;
+font-size: 20px!important;
+color:  var(--greenish);
+text-align: left!important;
+border: unset!important;
+}
+
+.paraMentions p{
+  line-height: 18px;
+  font-size: 17px!important;
+}

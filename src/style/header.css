@@ -1,0 +1,213 @@
+/***HEADER***/
+
+/*Header Nav*/
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: var(--whiteish);
+  height: 85px; /**/
+  padding: 40px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 450;
+  background: var(--blackish);
+  z-index: 1000;
+  box-shadow: 0 -5px 30px 1px var(--blackish);
+}
+nav li a,
+nav li,
+nav div {
+  font-size: 15px;
+}
+nav p,
+nav button p {
+  font-size: 15px;
+  margin: auto;
+}
+nav a:hover,
+nav button p:hover,
+.thatULink:hover p {
+  color: var(--greenish);
+  text-decoration: none;
+}
+
+/*Header Logo*/
+nav .logo {
+  position: relative;
+  float: left;
+  margin: 11px 0 11px 0;
+  height: 59px;
+}
+
+/*Header menu*/
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu > * {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#menu-toggle {
+  display: none;
+}
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: var(--whiteish);
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+@media (max-width: 852px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 78px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: var(--whiteish);
+    background-color: var(--blackishBack);
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+/*Header Nav menu dropdown*/
+ul {
+  position: relative;
+  list-style-type: none;
+}
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  padding: 0px 25px 10px 25px;
+  line-height: 40px;
+  background: var(--blackishBack);
+  border-radius: 0px 0px 5px 5px;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 10px;
+  margin: 28px 0 0 -8px;
+}
+header ul li ul li,
+header ul li div {
+  border-bottom: solid 2px var(--greenishTrans2);
+}
+ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+.subList li a,
+.subList * {
+  font-size: unset;
+  font-size: 15px;
+}
+.noClick {
+  pointer-events: none;
+}
+.contactList {
+  display: flex;
+  float: right;
+}
+
+.contactList a,
+.contactList p,
+.contactList li {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px 0 5px;
+}
+.contactList .fa {
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--whiteish);
+}
+.contactList a:hover,
+.contactMail p:hover {
+  color: var(--greenish);
+  text-decoration: none;
+}
+.contactList .authorLogo {
+  max-height: 40px;
+}
+.contactList.fb {
+  margin: none;
+}
+
+.contactMail {
+  float: left;
+}

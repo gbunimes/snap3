@@ -1,0 +1,173 @@
+/***CREATEURS***/
+
+/* Page */
+#createurs {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17vh 0 10vh 0;
+  position: relative;
+  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both; /***/
+  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  background: url("./background/background2.webp");
+  background-color: var(--blackish);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  padding: 0 30px 0 30px;
+}
+.container h1 {
+  margin-bottom: 70px;
+}
+.subRow {
+  display: flex;
+  justify-content: center;
+}
+
+/* Profile card */
+.creator {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px !important;
+  position: relative;
+  transition: 0.45s;
+  -webkit-animation: fade-in 2.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 2.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.ediSection .creator,
+.supSection .creator {
+  margin-bottom: 100px !important;
+}
+.ediSection, .supSection/*, .teamIllus, .teamAuth*/ {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* Vertical Names */
+.creator .Names {
+  padding: 3px;
+  font-size: 16px;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: absolute;
+  text-shadow: -1px 2px 1px var(--blackish);
+  opacity: 0.8;
+  background-color: var(--blueish0);
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 0px 3px 2px var(--blackish);
+  transition: 0.3s;
+  z-index: 2;
+  transform: rotate(-180deg);
+}
+
+/* under card infos */
+.creator .Jobs {
+  position: absolute;
+  height: 30%;
+  width: 85%;
+  bottom: -85px;
+  font-size: 14px;
+  text-shadow: 1px 1px 0.5px var(--blackish);
+  pointer-events: none;
+}
+
+/* over card infos */
+.creator .Credits {
+  position: absolute;
+  color: #ffd70099;
+  width: 80%;
+  border-radius: 0 0 10px 10px;
+  font-size: 8px !important;
+  bottom: -10px;
+  padding-left: 10px;
+  text-shadow: 1px 1px 0.5px var(--blackish);
+  pointer-events: none;
+  background-color: var(--blackishBack2);
+  z-index: 1;
+}
+
+/* Profile photos */
+.creator img {
+  border-radius: 10px;
+  box-shadow: -3px 0px 3px 2px var(--blackish);
+  width: 100%;
+  height: 100%;
+}
+
+/* Titles animations */
+.creaTitle {
+  animation: anipers2 15s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    alternate both;
+}
+
+/* Profile links */
+.creator .extLink {
+  width: 15%;
+  height: 12%;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  border-radius: 10px 0 10px 0;
+  box-shadow: -2px -1px 3px 2px var(--blackish);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blueish);
+  transition: 0.45s;
+  z-index: 2;
+}
+.creator .extLink::before {
+  pointer-events: none;
+  text-decoration: none;
+  content: "+";
+  color: var(--blackish);
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Porfile hover animations*/
+.creator:hover .extLink {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+  background-color: var(--blueish2);
+}
+.creator:hover .extLink::before {
+  animation: dotAnim2 0.1s linear both;
+  color: var(--whiteish);
+}
+.creator:not(:hover) .extLink::before {
+  animation: dotAnim3 0.1s linear both;
+}
+.creator:hover {
+  transform: scale(1.05);
+}
+.creator:hover .Names {
+  background: unset;
+  background-color: var(--blueish2);
+}
+
+.teamAuth .Jobs {
+  display: none;
+}
+
+/* Tooltip style*/
+.myTip {
+  width: 50%;
+  height: 100%;
+  background-color: var(--greenish) !important;
+  color: var(--blackish) !important;
+  border-radius: 0px !important;
+}

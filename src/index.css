@@ -1,0 +1,84 @@
+/***INDEX***/
+
+/***COMPONENTS STYLES***/
+@import "./style/animations.css";
+@import "./style/header.css";
+@import "./style/BackgroundParticleAnim.css";
+@import "./style/BackgroundParticleAnim2.css";
+@import "./style/intro.css";
+@import "./style/footer.css";
+@import "./style/modal.css";
+@import "./style/form.css";
+@import "./style/team.css";
+@import "./style/createurs.css";
+@import "./style/univers.css";
+@import "./style/story.css";
+@import "./style/stories.css";
+@import "./style/universesAnimations.css";
+@import "./style/thisUniverse.css";
+@import "./style/responsive.css";
+
+/***FONTS***/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body,
+html {
+  /*General*/
+  font-family: "Poppins", serif, arial;
+  font-display: swap;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100vh;
+  max-width: 100vw;
+  color: var(--whiteish);
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blackish);
+  background: url("./style/background/background.webp");
+  background-color: var(--blackish);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*Color Variables*/
+  --blackish: #0e0d0d;
+  --blackishBack: #000000cc;
+  --blackishBack2: #00000099;
+  --blackishBack3: #00000066;
+  --whiteish: #f9f7fd;
+  --whiteishTrans: #f9f7fd66;
+  --whiteishTrans3: #f9f7fd99;
+  --greenish: #85dd91;
+  --greenish2: #497e50;
+  --greenish4: #213724;
+  --greenishTrans0: #b5cc9699;
+  --greenishTrans: #b5cc9633;
+  --greenishTrans2: #85dd9140;
+  --blueish0: #0d9580;
+  --blueish: #0d9580cc;
+  --blueish2: #15a07a;
+}
+a,
+p {
+  font-size: 18px;
+  color: var(--whiteish);
+  transition: 0.3s;
+  text-decoration: none;
+}
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.homepage {
+  animation: fade-in 2.5s;
+}
+

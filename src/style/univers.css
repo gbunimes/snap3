@@ -1,0 +1,211 @@
+/***UNIVERS***/
+
+/*Univers Page*/
+.univers {
+  background-color: var(--blackish);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/*Univers Page link to ThisUniverse Page*/
+.linkToU {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  transition: 1s;
+}
+.linkToU:link {
+  text-decoration: none;
+}
+.linkToU:hover h2 {
+  transform: scale(1.1);
+}
+
+/*Univers Titles*/
+.univers h1 {
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 5px 2px 12px var(--blackish);
+  color: var(--whiteish);
+  transition: 0.6s;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  animation: anipers 15s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    alternate both;
+}
+/*Univers Intro paragraph*/
+.univers p {
+  text-align: center;
+  text-shadow: 5px 2px 12px var(--blackish);
+  color: var(--whiteish);
+  transition: 0.6s;
+}
+
+/*Univers Link button*/
+.univers h2 {
+  font-size: 24px;
+  color: var(--blackish);
+  background-color: var(--whiteishTrans);
+  box-shadow: 0px 0px 18px 1px var(--blackishBack3);
+  width: fit-content;
+  margin: 35px auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.6s;
+  backdrop-filter: blur(15px);
+}
+
+/*Univers Slideshow*/
+.univers .container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+}
+.slideshow {
+  position: relative;
+  width: 100%;
+}
+.slideshow:after {
+  content: "";
+  display: block;
+  padding-bottom: calc((100% / 6) * 4);
+}
+.slideshow .slide {
+  box-sizing: border-box;
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.slide {
+  height: 100vh !important;
+  max-width: unset !important;
+  margin: auto;
+}
+.imgU {
+  max-width: unset !important;
+  margin: auto;
+}
+.slideshow .slide:first-child,
+.slideshow .slide:target {
+  display: block;
+}
+.pagination {
+  display: flex;
+  bottom: 10px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+.pagination a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-top: -100px;
+  transition: 0.2s;
+  animation: circle 3s linear infinite;
+}
+.aAnim {
+  display: block;
+  min-height: 40px;
+  min-width: 40px;
+  box-shadow: 0 0 7px 0.5px var(--blackishBack2);
+}
+.pagination a:nth-child(2), .pagination2 a:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.pagination a:nth-child(3), .pagination2 a:nth-child(3) {
+  animation-delay: -0.6s;
+}
+.pagination a:nth-child(4), .pagination2 a:nth-child(4) {
+  animation-delay: -0.9s;
+}
+.pagination a:nth-child(5), .pagination2 a:nth-child(5) {
+  animation-delay: -1.2s;
+}
+.pagination a:nth-child(6), .pagination2 a:nth-child(6) {
+  animation-delay: -1.5s;
+}
+.pagination a:nth-child(7), .pagination2 a:nth-child(7) {
+  animation-delay: -1.8s;
+}
+.pagination a:nth-child(8), .pagination2 a:nth-child(8) {
+  animation-delay: -2.1s;
+}
+.pagination a:nth-child(9), .pagination2 a:nth-child(9) {
+  animation-delay: -2.4s;
+}
+.pagination a:nth-child(10), .pagination2 a:nth-child(10) {
+  animation-delay: -2.7s;
+}
+.aAnim {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/*Univers Slideshow Dots style*/
+.pagination a:nth-child(1) div, .pagination2 a:nth-child(1) div {
+  background: url("./background/backgroundU1.webp");
+  background-position: center;
+  animation: dotAnim 10s linear infinite both;
+}
+.pagination a:nth-child(2) div, .pagination2 a:nth-child(2) div {
+  background: url("./background/backgroundU2.webp");
+  background-position: center;
+  animation: dotAnim 7s linear infinite both -1s;
+}
+.pagination a:nth-child(3) div, .pagination2 a:nth-child(3) div {
+  background: url("./background/backgroundU3.webp");
+  background-position: center;
+  animation: dotAnim 15s linear infinite both -3s;
+}
+.pagination a:nth-child(4) div, .pagination2 a:nth-child(4) div {
+  background: url("./background/backgroundU4.webp");
+  background-position: center;
+  animation: dotAnim 10s linear infinite both;
+}
+.pagination a:nth-child(5) div, .pagination2 a:nth-child(5) div {
+  background: url("./background/backgroundU5.webp");
+  background-position: center;
+  animation: dotAnim 7s linear infinite both -1s;
+}
+.pagination a:nth-child(6) div, .pagination2 a:nth-child(6) div {
+  background: url("./background/backgroundU6.webp");
+  background-position: center;
+  animation: dotAnim 15s linear infinite both -3s;
+}
+.pagination a:nth-child(7) div, .pagination2 a:nth-child(7) div {
+  background: url("./background/backgroundU7.webp");
+  background-position: center;
+  animation: dotAnim 10s linear infinite both;
+}
+.pagination a:nth-child(8) div, .pagination2 a:nth-child(8) div {
+  background: url("./background/backgroundU8.webp");
+  background-position: center;
+  animation: dotAnim 7s linear infinite both -1s;
+}
+.pagination a:nth-child(9) div, .pagination2 a:nth-child(9) div {
+  background: url("./background/backgroundU9.webp");
+  background-position: center;
+  animation: dotAnim 13s linear infinite both -4s;
+}
+.pagination a:nth-child(10) div, .pagination2 a:nth-child(10) div {
+  background: url("./background/backgroundU10.webp");
+  background-position: center;
+  animation: dotAnim 7s linear infinite both -2s;
+}
+.pagination a:not(:last-child),.pagination2 a:not(:last-child) {
+  margin-right: 20px;
+}
+.pagination a p {
+  display: none;
+}
