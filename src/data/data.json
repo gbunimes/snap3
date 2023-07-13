@@ -1,53 +1,66 @@
 {
-  "nom": "Noir d'Absinthe",
+  "snap": {
+    "nom": "SNAP",
+    "description": "Service Numérique & d'Accompagnement Pédagogique",
+    "mail": "snap@unimes.fr",
+    "tel": "04 66 36 46 28"
+  },
+
   "ressources": {
     "logo1": "LogoS",
-    "logo2": "LogoL",
-    "kitMédia": "/Kit_Media_Noir_d'Absinthe.pdf",
-    "logoFB": "fa fa-facebook",
-    "logoTW": "fa fa-twitter",
-    "logoIG": "fa fa-instagram",
-    "logoYT": "fa fa-youtube",
-    "sponso1": "Sponso1",
-    "sponso2": "Sponso2"
+    "logo2": "LogoL"
   },
   "menu": {
     "menu1": "Accueil",
-    "menu2": "Univers ▾",
-    "menu2b": "Bibliothèque augmentée",
-    "menu2b": "Lecture en ligne",
-    "menu3": "Créateurs",
-    "menu4": "À propos",
-    "menu5": "Contact ▾",
-    "menu5a": "Nous contacter",
-    "menu5b": "Manuscrits & AT",
-    "menu5c": "Service-presse",
-    "menu5d": "Kit média",
-    "menu6": "Blog",
-    "menu7": "Boutique"
+    "menu2": "Ingénierie pédagogique",
+    "menu3": "Vos besoins",
+    "menu4": "Réalisations",
+    "menu5": "Équipe",
+    "menu5": "Contact"
   },
   "links": {
     "menu1L": "/accueil",
-    "menu2L": "/nos-univers",
-    "menu3L": "/createurs",
-    "menu5L": "/nouvelles"
+    "menu2L": "/accueil#ingénierie-pédagogique",
+    "menu3L": "/accueil#besoins",
+    "menu4L": "/accueil#réalisations",
+    "menu5L": "/accueil#équipe",
+    "menu5L": "/accueil#contact"
   },
-  "UimgLinks": {
-    "IL0": "img/",
-    "IL1": "/img/Background/",
-    "IL2": "/img/Photos/",
-    "IL3": "/img/Livres/",
-    "IL1B": ".webp",
-    "IL1B2": ".jpg"
-  },
-  "A FAIRE": {
-    "Accueil": "LOADER ???",
-    "LIVRES": "LIENS PERSOS VERS NEW BOUTIK",
-    "Cookies": "???",
-    "nouvelle boutique": "EN COURS",
-    "Module accueil": "Derniers evenements Fb ? posts inta et/ou Fb ?",
-    "livres": "liens vidéos pour booktrailer en modales ?",
-    "SEO PERFORMANCE ET REFERENCEMENT": "again ?",
-    "lien blog": "A FAIRE QUAND FINI"
+
+  "team": [
+    {
+      "name": "",
+      "name2": "",
+      "credits": "",
+      "job": ""
+    }
+  ],
+
+  "Articles": [
+    {
+      "titre": "",
+      "author": "",
+      "date": "",
+      "P1": "",
+      "P2": "",
+      "P3": "",
+      "P4": "",
+      "P5": "",
+      "P6": "",
+      "P7": "",
+      "P8": "",
+      "P9": "",
+      "P10": "",
+      "image": [""]
+    }
+  ],
+
+  "footer": {
+    "titre": "",
+    "P1": "",
+    "P2": "",
+    "P3": "",
+    "P4": "",
+    "P5": ""
   }
 }

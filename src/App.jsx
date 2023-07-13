@@ -8,12 +8,11 @@ import axios from "axios";
 
 /***DATAS***/
 import Data1 from "./data/data.json";
-import Data2 from "./data/dataSite.json";
 import Data3 from "./data/dataBooks.json";
 
 /***COMPONENTS***/
 import Header from "./components/Header";
-/*import { DustAnim, MainAnim } from "./components/UniversAnim";*/
+import {  FuturiaAnim } from "./components/UniversAnim";
 
 /***PAGES***/
 import Homepage from "./pages/Homepage";
@@ -23,10 +22,9 @@ export default function App() {
   return (
     <Router>
       {/*BACKGROUND ANIMATION*/}
-      {/*DustAnim()*/}
-      {/*MainAnim()*/}
+      {FuturiaAnim()}
 
-      <Header data1={Data1} data2={Data2} />
+      <Header data1={Data1}/>
       <div className="app">
         {/*ROUTES*/}
         <Switch>
