@@ -6,6 +6,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Redirect } from "react-router";
 import axios from "axios";
 
+/***DATAS***/
+import Data1 from "./data/data.json";
+import Data2 from "./data/dataSite.json";
+import Data3 from "./data/dataBooks.json";
+
 /***COMPONENTS***/
 import Header from "./components/Header";
 import { DustAnim, MainAnim } from "./components/UniversAnim";
@@ -24,56 +29,7 @@ import Search from "./pages/Search";
 
 /***APP***/
 export default function App() {
-  /*Get datas*/
-  const [Loading, setLoading] = useState(true);
-  const [Data1, setData1] = useState({});
-  const [Data2, setData2] = useState({});
-  const [Data3, setData3] = useState({});
-  const [allDatas, setAllDatas] = useState({});
-  const [allDatas2, setAllDatas2] = useState({});
-  const [allDatas3, setAllDatas3] = useState({});
-
-  /*Json file urls*/
-  let Json1 =
-    "https://raw.githubusercontent.com/NoirDAbsinthe/NDAAPI/master/dataSite.json";
-  let Json2 =
-    "https://raw.githubusercontent.com/NoirDAbsinthe/NDAAPI/master/dataBooks.json";
-
-  /*axios config*/
-  const requestOne = axios.get(Json1);
-  const requestTwo = axios.get(Json2);
-
-  useEffect(() => {
-    async function getDatas() {
-      axios.all([requestOne, requestTwo]).then(
-        axios.spread((...responses) => {
-          const responseOne = responses[0];
-          const responseTwo = responses[1];
-          setData1(Data00);
-          setData2(responseOne.data);
-          setData3(responseTwo.data);
-          setLoading(false);
-          setAllDatas(Data00);
-          setAllDatas2(Data2);
-          setAllDatas3(Data3);
-        })
-      );
-    }
-    getDatas();
-  }, []);
-
-  /**************** Get all books or book tags if needed******************************/
-  /*console.log(Data3.Livres)*/
-  /*getAllTags(Data3);*/
-  /***************************************************************************/
-
-
-  /*Check if loading is complete before rendering*/
-  if (Loading) {
-    return null;
-  } else {
-    /*DOM*/
-    return (
+      return (
       <Router>
         {/*BACKGROUND ANIMATION*/}
         {DustAnim()}
@@ -138,4 +94,3 @@ export default function App() {
       </Router>
     );
   }
-}
