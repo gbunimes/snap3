@@ -10,10 +10,13 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  /*color: var(--blackish);*/
-  color: var(--uniOrange);
-  height: 85px; /**/
-  padding: 40px;
+color: var(--blackish);
+  height: fit-content; 
+  /*padding: 7px 7px 7px 0px;*/
+  /*padding: 5px 0  5px 0px;*/
+  /*padding: 5px 0  5px 0px;*/
+
+
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
@@ -25,21 +28,52 @@ nav {
   display: flex;
   width: fit-content;  
 }
-.siteBanner h1{
-   text-transform: capitalize;
+.siteBanner h1, .siteBanner .shortTitle{
+   text-transform: none;
    margin:0 0 0 20px;
    color: var(--blackish);
-   font-size: 25px;
+   font-size: 22px;
    align-self: center;
    font-family: "Oswald", sans-serif, arial;
    font-weight: 400;
+   /*max-width: 50%;*/
+  text-align: left;
+
+}
+.siteBanner .shortTitle{
+  display: none;
 }
 
 nav li a,
 nav li,
 nav div {
   font-size: 15px;
+  align-self: center;
+  overflow: visible;
+  text-align: center;
 }
+
+.lastLink{
+  background-color: var(--uniBlue);
+  color: var(--whiteish);
+  padding: 20px;
+  /*border-radius: 7px;*/
+  margin-right: 0!important;
+}
+
+.lastLink:hover{
+  color: var(--whiteish)!important;
+  background-color: var(--uniOrange);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.lastLink a:hover {
+  color: var(--whiteish)!important;
+
+}
+
+
 nav p,
 nav button p {
   font-size: 15px;
@@ -48,7 +82,9 @@ nav button p {
 nav a:hover,
 nav button p:hover,
 .thatULink:hover p {
-  color: var(--uniBlue);
+  /*color: var(--uniBlue);*/
+  color: var(--uniOrange);
+
   text-decoration: none;
 }
 
@@ -56,8 +92,9 @@ nav button p:hover,
 nav .logo {
   position: relative;
   float: left;
-  margin: 11px 0 11px 0;
-  height: 64px;
+  /*margin: 11px 0 11px 0;*/
+  max-height: 55px;
+  width: auto;
 }
 
 /*Header menu*/
@@ -67,6 +104,8 @@ nav .logo {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  justify-content: flex-end;
+  width: 100%;
 }
 .menu > * {
   margin: 0 1rem;
@@ -122,7 +161,7 @@ nav .logo {
   .menu {
     position: absolute;
     top: 6px;
-    margin-top: 78px;
+    margin-top: 64px;
     left: 0;
     flex-direction: column;
     width: 100%;

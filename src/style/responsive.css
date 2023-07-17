@@ -2,36 +2,30 @@
 
 /**********1422************/
 @media (max-width: 1422px) {
-	.introBooks img {
-		max-width: 190px !important;
-	}
+	
 }
 
 /**********1401************/
 @media (max-width: 1401px) {
-	.react-responsive-modal-modal {
-		max-width: 80vw !important;
-	}
+	
 }
 
 /**********1369************/
 @media (max-width: 1369px) {
-	.introBooks img {
-		max-width: 118px !important;
-	}
+	
 }
 
 /**********1066************/
 @media (max-width: 1066px) {
-	.storyText {
-		flex: unset !important;
-	}
-	.audioWrap {
-		margin-top: 50px;
-		flex: unset !important;
-		justify-content: center;
-		align-items: center;
-	}
+	nav li a,
+nav li,
+nav div {
+  font-size: 13px;
+  align-self: center;
+  overflow: visible;
+  text-align: center;
+}
+	
 }
 
 /**********992************/
@@ -40,48 +34,29 @@
 	nav button p,
 	nav li a,
 	nav li,
-	nav div {
+	nav div{
 		font-size: 12px;
+		/*text-align: center;*/
 	}
-	.creator a::before {
-		color: white !important;
-	}
-	.creator .Jobs {
-		margin-top: 0px !important;
-		height: auto !important;
-		bottom: -55px !important;
-		margin: auto;
-		width: 89% !important;
-	}
-	.intro {
-		margin-top: 10vh !important;
-		flex-direction: column !important;
-	}
-	.introLeft,
-	.introRightWrapper {
-		margin: auto !important;
-		width: 100% !important;
-	}
-	.logoFull {
-		min-width: 200px !important;
-		box-shadow: 0px 0px 15px -6px var(--greenish);
-	}
-	.intro h1 {
-		width: 100% !important;
-		align-self: center !important;
-	}
-	.creator .Jobs {
-		bottom: -70px !important;
-	}
-	#team {
-		padding: 20px;
-		margin: 100px auto;
-		max-width: 90vw;
-	}
+		nav h1{
+			display: none;
+		}
+		nav .shortTitle{
+			display: flex!important;
+		}
+	
 }
 
 /**********852************/
 @media (max-width: 852px) {
+
+  
+nav{
+
+  padding: 5px 20px  5px 0px;
+
+}
+
 	.pagination2 a,
 	.aAnim2 {
 		height: 20px !important;

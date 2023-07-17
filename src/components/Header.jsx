@@ -22,6 +22,7 @@ export default function Header(data) {
             />{" "}
           </a>
           <h1>{data.data1 ? data.data1.snap.description : "loading..."}</h1>
+          <p className="shortTitle">SNAP</p>
         </div>
         {/*Responsive Burger Menu*/}
         <input id="menu-toggle" type="checkbox" />
@@ -31,14 +32,14 @@ export default function Header(data) {
         {/*Menu*/}
         <ul className="menu">
           {/*1 - Accueil*/}
-          <li>
-            <a
-              href={data.data1 ? data.data1.links.menu1L : "loading..."}
-              className="page-scroll"
-            >
-              {data.data1 ? data.data1.menu.menu1 : "loading..."}
-            </a>
-          </li>
+          {/*<li>
+                      <a
+                        href={data.data1 ? data.data1.links.menu1L : "loading..."}
+                        className="page-scroll"
+                      >
+                        {data.data1 ? data.data1.menu.menu1 : "loading..."}
+                      </a>
+                    </li>*/}
           {/*2*/}
           <li>
             <a
@@ -76,7 +77,7 @@ export default function Header(data) {
             </a>
           </li>
             {/*6*/}
-          <li>
+          <li className="lastLink">
             <a
               href={data.data1 ? data.data1.links.menu6L : "loading..."}
               className="page-scroll"

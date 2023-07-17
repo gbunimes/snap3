@@ -28,12 +28,19 @@ export default function App() {
 
       <Header data1={Data1} />
       <div className="app">
+  
+  
+      <video id="background-video" autoPlay loop muted poster="./img/bckVid.mp4">
+        <source src="./img/bckVid.mp4" type="video/mp4" />
+      </video>
         {/*ROUTES*/}
         <Switch>
           {/*HOMEPAGE*/}
-          { <Route exact path="/accueil">
-                         <Homepage data1={Data1} />
-                       </Route>  }
+          {
+            <Route exact path="/accueil">
+              <Homepage data1={Data1} />
+            </Route>
+          }
           {/*REDIRECT*/}
           {/*<Route>
                           <Redirect to="/accueil" />
@@ -41,7 +48,6 @@ export default function App() {
         </Switch>
       </div>
       <Footer data1={Data1} />
-
     </Router>
   );
 }
