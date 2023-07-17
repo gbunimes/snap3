@@ -1,77 +1,133 @@
 /***FOOTER***/
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  color: var(--whiteish);
-  height: 45px;
-  padding: 30px 5px 30px 5px;
-  z-index: 1000;
-  background: black;
-  border-radius: 0 25px 0 0;
-  box-shadow: -5px 5px 25px 1px var(--blackish);
-}
-footer a,
-footer p,
-footer li {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 5px 0 5px;
-}
-footer .fa {
-  font-size: 25px;
-  text-decoration: none;
-}
-footer a:hover {
-  color: var(--greenish);
-  text-decoration: none;
-}
-footer img {
-  max-height: 40px;
-  height: 40px;
+
+.footer {
   width: 100%;
-}
-
-footer button {
-  margin:  0px 2px 0px 2px!important;
-  
-  font-size: 16px!important;
-}
-
-.fb,
-.BretagneLogo {
-  margin-left: 20px;
-}
-.menuF {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
+  position: absolute;
+  bottom: 0px;
   margin: 0;
-  padding: 0;
-}
-.paraMentions{
-display: flex!important;
-flex-direction: column;
-}
-
-.paraMentions h2{
-  width: 100%!important;
-font-size: 20px!important;
-color:  var(--greenish);
-text-align: left!important;
-border: unset!important;
+    background: url("./background/bckg2.webp"), var(--whiteish) !important;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    color: var(--blackish) !important;
+    box-shadow: 0 20px 30px 1px var(--blackish);
 }
 
-.paraMentions p{
-  line-height: 18px;
-  font-size: 17px!important;
+footer .container .row {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+
+.subFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subFoot img {
+  max-width: 220px;
+}
+
+.footer i {margin-right: 10px}
+
+
+.footer p {
+    text-align: left !important;
+}
+
+.footer a {
+    color: var(--uniBlue) !important;
+    margin: auto;
+}
+.footer a:hover {
+    color: var(--uniOrange) !important;
+}
+.footLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footLogo img {
+    max-width: 100px;
+}
+
+.footLogo h4 {
+    color: var(--blackish) !important;
+    margin-top: 15px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modalB {
+    all: unset !important;
+    cursor: pointer !important;
+    margin: auto !important;
+    width: 100% !important;
+    color: var(--uniBlue) !important;
+    text-align: center !important;
+    border: none;
+}
+
+.modalB:hover,
+.modalB:focus,
+.modalB:active,
+.modalB:visited {
+    background: inherit;
+    color: inherit;
+    border: none;
+}
+
+.modal-title {
+    color: var(--uniOrange);
+}
+
+.modal-header {
+    border-color: var(--uniBlue);
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.modal-body div {
+    margin: 15px;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: var(--whiteish);
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.lastF {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    /*font-family: "Font Awesome 5 Free";*/
+    font-weight: 900;
+    color: var(--whiteish);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--uniBlue);
+    letter-spacing: 1px;
+    box-shadow: none;
 }

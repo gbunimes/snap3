@@ -9,7 +9,7 @@ export default function Header(data) {
   /*DOM*/
   return (
     <header id="header">
-      <nav role="navigation" className="top-nav primary-navigation Hheader">
+      <nav id="top"role="navigation" className="top-nav primary-navigation Hheader">
         <div className="siteBanner">
           {/*Site Logo*/}
           <a href="/accueil">

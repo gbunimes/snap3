@@ -10,36 +10,41 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-color: var(--blackish);
-  height: fit-content; 
+  color: var(--blackish);
+  height: fit-content;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
   background: var(--whiteish);
   z-index: 1000;
   box-shadow: 0 -20px 30px 1px var(--blackish);
+  background: url("./background/bckg2.webp"), var(--whiteish) !important;
+  background-position: center;
+  background-size: cover;
 }
-.siteBanner{
+.siteBanner {
   display: flex;
-  width: fit-content;  
+  width: fit-content;
   align-items: center;
 }
-.siteBanner h1, .siteBanner .shortTitle{
-   text-transform: none;
-   margin:0 0 0 20px;
-   margin:3px 0 7px 20px;
-   color: var(--blackish);
-   font-size: 22px;
-   align-self: center;
-   font-family: "Oswald", sans-serif, arial;
-   font-weight: 400;   
+.siteBanner h1,
+.siteBanner .shortTitle {
+  text-transform: none;
+  margin: 0 0 0 20px;
+  margin: 3px 0 7px 20px;
+  color: var(--blackish);
+  font-size: 22px;
+  align-self: center;
+  font-family: "Oswald", sans-serif, arial;
+  font-weight: 400;
   text-align: left;
-  border-right: 0.2px solid #AEACAC;
-
+  border-right: 0.2px solid #aeacac;
+  letter-spacing: 2px;
 }
-.siteBanner .shortTitle{
+.siteBanner .shortTitle {
   display: none;
   padding-right: 10px;
+  border: none;
 }
 
 nav li a,
@@ -51,22 +56,22 @@ nav div {
   text-align: center;
 }
 
-.lastLink{
+.lastLink {
   background-color: var(--uniBlue);
   color: var(--whiteish);
   padding: 20px;
-  margin-right: 0!important;
+  margin-right: 0 !important;
 }
 
-.lastLink:hover{
-  color: var(--whiteish)!important;
+.lastLink:hover {
+  color: var(--whiteish) !important;
   background-color: var(--uniOrange);
   transition: 0.4s;
   cursor: pointer;
 }
 
 .lastLink a:hover {
-  color: var(--whiteish)!important;
+  color: var(--whiteish) !important;
 }
 
 nav p,
@@ -102,7 +107,6 @@ nav .logo {
 .menu > * {
   margin: 0 1rem;
   overflow: hidden;
-
 }
 .menu-button-container {
   display: none;
@@ -180,18 +184,17 @@ nav .logo {
     width: 100%;
     color: var(--whiteish);
     background-color: var(--uniBlue);
-  } 
+  }
 
   .menu > li:hover {
     background-color: var(--whiteish);
-    color: black!important;
+    color: black !important;
     transition: 0.4s;
   }
 
-  .menu > li a:hover{
-    color: black!important;
+  .menu > li a:hover {
+    color: black !important;
     transition: 0.4s;
-
   }
 }
 

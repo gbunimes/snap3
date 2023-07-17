@@ -106,3 +106,463 @@ nav{
 @media (max-width: 382px) {
 	
 }
+
+
+/***RESPONSIVE***/
+
+/*--------OVER 1500-----------*/
+@media (min-width: 1550px) {
+    #about {
+        padding: 200px 0 100px 0 !important;
+    }
+}
+
+/*----------MAX : 1496-----------*/
+@media (max-width: 1496px) {
+    .nav-link {
+        font-size: 15px !important;
+    }
+
+    nav i {
+        display: none !important;
+    }
+}
+
+/*----------MAX : 1091-----------*/
+@media (max-width: 1091px) {
+    .nav-link {
+        font-size: 14px !important;
+    }
+}
+
+/*----------MAX : 1034-----------*/
+@media (max-width: 1034px) {
+    .nav-link {
+        font-size: 12px !important;
+    }
+}
+
+/*----------MAX : 1396-----------*/
+@media (max-width: 1396px) {
+    .mainC i {
+        margin: auto !important;
+        padding: 0 5px 0 5px;
+    }
+}
+
+/*----------MAX : 1250-----------*/
+@media (max-width: 1250px) {
+    .headerTitle {
+        display: none;
+    }
+
+    .headerTitle2 {
+        display: block;
+        font-size: 25px !important;
+    }
+}
+
+/*--------OVER 992-----------*/
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+        padding: 0;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: 0.5s;
+        opacity: 1;
+    }
+}
+
+/*----------MAX : 992-----------*/
+@media (max-width: 992px) {
+    .border-end {
+        border-right: 0 solid #dee2e6 !important;
+    }
+
+    .headerTitle {
+        display: block;
+    }
+
+    .headerTitle2 {
+        display: none;
+    }
+
+    .navbar .nav-item .dropdown-menu,
+    .dropdown {
+        display: none;
+    }
+
+    #top .container,
+    #optimisation .container,
+    #création .container,
+    #accompagnement .container,
+    #évaluation .container {
+        padding: 5px !important;
+    }
+
+    #top .container .toolButton {
+        max-width: 100% !important;
+        margin-bottom: 50px !important;
+    }
+
+    #ressources .secTit {
+        text-align: center;
+    }
+
+    #ressources .wow2 {
+        flex-direction: column !important;
+        padding: 15px;
+    }
+
+    #ressources .wow2 .imgW,
+    #ressources .wow2 .pW {
+        display: flex;
+        justify-content: center;
+    }
+
+    #ressources .wow2 img {
+        max-width: 500px;
+        margin-bottom: 25px;
+    }
+
+    #ressources .argu p {
+        max-width: 100%;
+    }
+
+    .title {
+        text-align: center !important;
+    }
+}
+
+/*----------MAX : 985-----------*/
+@media (max-width: 985px) {
+    .introText2 {
+        margin: auto;
+        max-width: 70%;
+    }
+}
+
+/*----------MAX : 958-----------*/
+@media (max-width: 985px) {
+    .introText2 h1 {
+        font-size: 20px !important;
+    }
+}
+
+/*----------MAX : 991-----------*/
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #eeeeee;
+    }
+
+    .mainC {
+        display: none;
+    }
+
+    .secondC {
+        display: block;
+    }
+
+    .intro .row:first-child {
+        margin-top: 50px;
+    }
+
+    .squareText {
+        margin: 10px !important;
+        width: 100% !important;
+    }
+
+    .secondImgWrap {
+        padding: 0 !important;
+    }
+
+    .missionCard {
+        width: 70%;
+    }
+
+    form button {
+        max-width: unset;
+    }
+
+    .radioForm {
+        padding: unset;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .form-group2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /*.radioForm */
+    .labelType {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subRadio {
+        align-self: flex-start;
+        margin: 5px;
+    }
+
+    #bigForm .row .wow {
+        padding: unset !important;
+    }
+}
+
+/*----------MAX : 806-----------*/
+@media (max-width: 806px) {
+    .headerTitle {
+        display: none;
+    }
+
+    .headerTitle2 {
+        display: block;
+        font-size: 25px !important;
+    }
+
+    .toolWrapper,
+    .toolWrapper:nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .toolWrapper .partA2 {
+        min-height: 20px !important;
+    }
+
+    .toolWrapper .partA,
+    .toolWrapper:nth-of-type(odd) .partA,
+    .toolWrapper:nth-of-type(odd) {
+        background: none !important;
+        box-shadow: unset !important;
+    }
+
+    .toolWrapper .partB,
+    .toolWrapper .partB p {
+        margin: auto;
+        padding: 5px !important;
+    }
+
+    .toolWrapper:nth-of-type(odd) .partB .toolTit,
+    .toolTit {
+        text-align: center !important;
+        width: unset !important;
+        padding: 0 !important;
+        align-self: center !important;
+        color: var(--secondary) !important;
+    }
+
+    .toolWrapper * button {
+        background: var(--primary) !important;
+    }
+
+    .toolWrapper .partA a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*----------MAX : 768-----------*/
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 300px;
+    }
+
+    #header-carousel .carouIm1 {
+        object-position: center right;
+    }
+
+    #header-carousel .carouIm2 {
+        object-position: center left;
+    }
+
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .introText2 {
+        margin: auto;
+    }
+
+    .introText2 h1 {
+        font-size: 25px !important;
+        justify-self: center;
+    }
+
+    .eventSub {
+        flex-direction: column;
+    }
+
+    .intro .row {
+        max-width: 98% !important;
+        justify-content: center;
+    }
+
+    .g-0,
+    .gx-0 {
+        --bs-gutter-x: none !important;
+    }
+
+    .firstImgAbout,
+    .vidWrap,
+    #ingénierie .secondImgWrap {
+        display: none;
+    }
+
+    .secondImgWrap {
+        display: flex;
+        padding: 0 !important;
+    }
+
+    .aboutWr {
+        max-height: 250px;
+    }
+
+    .secondImgAbout {
+        position: relative !important;
+        margin: 0 auto 0 auto !important;
+        background: unset !important;
+        box-shadow: unset !important;
+    }
+
+    .aboutWr {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    .headerTitle2 {
+        margin-bottom: 0 !important;
+    }
+
+    #intro h5 {
+        font-size: 15px !important;
+    }
+
+    #intro .col-lg-3 {
+        max-height: 150px;
+        margin: 10px auto !important;
+    }
+
+    .teamSubW {
+        width: 100%;
+    }
+
+    .teamSubW p {
+        text-align: center !important;
+    }
+
+    .teamSubWUnder {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+/*----------MAX : 560-----------*/
+@media (max-width: 560px) {
+    .introText2 h1 {
+        font-size: 18px !important;
+        justify-self: center;
+    }
+
+    footer {
+        padding-bottom: 50px !important;
+    }
+
+    .aboutTitle {
+        font-size: 18px;
+    }
+
+    .eventHeader p {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 18px !important;
+    }
+
+    #témoignages img {
+        max-height: 75px;
+        width: auto;
+    }
+
+    #témoignages p {
+        font-size: 16px !important;
+    }
+
+    .secTit,
+    .toolTit {
+        font-size: 18px !important;
+    }
+
+    #thisIsContact {
+        text-align: justify;
+    }
+
+    .ticketingImg,
+    .bandeau {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 10px !important;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navbar-toggler {
+        margin: 0 !important;
+    }
+}
+
+/*----------MAX : 358-----------*/
+@media (max-width: 358px) {
+    nav {
+        justify-content: center !important;
+    }
+
+    .sub {
+        display: none;
+    }
+
+    #besoins
+        > div
+        > div.row.g-4.justify-content-center.cardRow
+        > div
+        > div
+        > p {
+        font-size: 14px !important;
+    }
+}
+
+
+
