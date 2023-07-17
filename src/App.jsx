@@ -1,10 +1,8 @@
 /******APP******/
 
 /***GENERAL***/
-import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Redirect } from "react-router";
-import axios from "axios";
 
 /***DATAS***/
 import Data1 from "./data/data.json";
@@ -23,16 +21,18 @@ import Homepage from "./pages/Homepage";
 export default function App() {
   return (
     <Router>
-      {/*BACKGROUND ANIMATION*/}
-      {MainAnim()}
-
       <Header data1={Data1} />
       <div className="app">
-  
-  
-      <video id="background-video" autoPlay loop muted poster="./img/bckVid.mp4">
-        <source src="./img/bckVid.mp4" type="video/mp4" />
-      </video>
+        {/*BACKGROUND ANIMATION*/}
+        <video
+          id="background-video"
+          autoPlay
+          loop
+          muted
+          poster="./img/bckVid.mp4"
+        >
+          <source src="./img/bckVid.mp4" type="video/mp4" />
+        </video>
         {/*ROUTES*/}
         <Switch>
           {/*HOMEPAGE*/}

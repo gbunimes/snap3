@@ -1,7 +1,7 @@
 /******HOMEPAGE******/
 
 /***COMPONENTS***/
-import Intro from "../components/Intro";
+
 
 
 /***COMPONENT***/
